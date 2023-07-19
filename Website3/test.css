@@ -1,0 +1,126 @@
+body{
+	font-family:cursive;
+
+}
+.Entry{
+	display: flex;
+	width: 100%;
+	top: 0;
+	justify-content: space-between;
+}
+	
+ 
+.logo{
+	
+	width: 120px;
+    height: 120px;
+}
+.links {
+	list-style-type:none;
+ 	display: flex;
+ 	right: 0px;
+ }
+
+
+ li {
+ 	display: inline;
+ 	margin-right: 10px; 
+ 	position: right ;
+ 	text-decoration: none;
+ 	flex-direction: right;	 
+ }
+ li a{
+ 	text-decoration:none;
+ 	margin-right: 10px;
+ 	color: black;
+
+ }
+ img{
+ 	height: 70%;
+ }
+header{
+	background:url(test.jpg);
+	height:450px ;
+	width:100%;
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	margin:auto;
+
+}
+.service{
+	position: center;
+	background-color: rgba(255,255,255,.9);
+	margin: 50px;
+	display: flex;
+	margin-left:350px auto;
+	margin: auto;
+    max-width: 600px;
+    padding: 20px;
+ 
+}
+.body{
+	margin-bottom: 100px;
+}
+.connexion{
+	display: flex;
+	position: center;
+}
+input[type="submit"]{
+	background-color: darkblue;
+	border-radius: 2px;
+	color: white;
+	border:none;
+	padding:8px;
+	margin-right: 10px; 
+	width: 102px;
+}
+
+.input{
+	margin-right: 10px;
+	margin-left: 20px;
+
+
+}
+.text{
+	height: 30px;
+	width: 400px; 
+	border-radius: 5px;
+	border:none;
+}
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color:darkblue;
+  font-size: 2em;
+ 
+}
+form {
+  margin:20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: Arial;
+}
+.submit{
+	justify-content: space-between;
+	margin: 10px; 
+	display: flex;
+}
+.valider{
+	background-color: darkblue;
+	color:white;
+	padding: 10px;
+	width: 100px;
+}
+input[type="text"],input[type="date"],input[type="phone-number"],input[type="email"],input[type="adresse"],textarea{
+	margin-bottom: 15px;
+	width: 100%;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+.classe{
+	margin: 100px;
+}
